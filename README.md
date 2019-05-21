@@ -11,12 +11,12 @@ your template.
 ## Usage
 
 ```bash
-go get github.com/kevinconway/wrapgen
+go get github.com/YoungAgency/wrapgen
 go get golang.org/x/tools/cmd/goimports
 
 go run wrapgen.go \
-  -t "${GOPATH}/src/github.com/kevinconway/wrapgen/basetemplate.txt" \
-  -p "github.com/kevinconway/wrapgen/api" \
+  -t "${GOPATH}/src/github.com/YoungAgency/wrapgen/basetemplate.txt" \
+  -p "github.com/YoungAgency/wrapgen/api" \
   | ${GOPATH}/bin/goimports > wrappers.go
 ```
 

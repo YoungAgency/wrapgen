@@ -1,4 +1,4 @@
-package: github.com/kevinconway/wrapgen
+package: github.com/YoungAgency/wrapgen
 import:
 - package: github.com/Masterminds/sprig
   version: 2.10.0

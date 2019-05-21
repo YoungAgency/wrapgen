@@ -9,7 +9,7 @@ import (
 	"text/template"
 
 	"github.com/Masterminds/sprig"
-	wrapgen "github.com/kevinconway/wrapgen/api"
+	wrapgen "github.com/YoungAgency/wrapgen/api"
 	"github.com/urfave/cli"
 )
 

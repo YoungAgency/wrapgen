@@ -100,8 +100,7 @@ func (i *defaultImporter) Import(pkg string, from string) (*ast.Package, error) 
 	if e == nil {
 		return p, nil
 	}
-	var rootPath = filepath.Join(runtime.GOROOT(), "src", pkg)
-	return i._import(rootPath)
+	return i._import(pkg)
 }
 
 // Imports generates a map of name -> path of all the import statements
